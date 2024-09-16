@@ -47,7 +47,7 @@ def render_page(page_name):
     if page_name == "Home":
         show_home_page()
     elif page_name == "Data":
-        import PSages.Data as Data
+        import Pages.Data as Data
         Data.main()
     elif page_name == "Dashboard":
         import Pages.Dashboard as Dashboard
